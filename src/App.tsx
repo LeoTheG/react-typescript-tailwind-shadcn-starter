@@ -4,7 +4,7 @@ import HelloWorld from "components/HelloWorld";
 
 function App() {
   return (
-    <div className="dark bg-background min-h-screen w-full flex justify-center items-center gap-4 flex-col">
+    <div className="flex flex-col items-center justify-center w-full min-h-screen gap-4 bg-background">
       <HelloWorld />
       <Button>Click me!</Button>
     </div>
